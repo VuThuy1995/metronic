@@ -123,7 +123,6 @@ var Login = function () {
 
             handleLogin();
             handleForgetPassword();
-            handleRegister();
 
         }
 
