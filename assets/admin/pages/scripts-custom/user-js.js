@@ -150,10 +150,6 @@ var FormValidation = function () {
 
 
     }
-	function resetform() {
-		document.getElementById("form_sample_1").reset();
-	}
-
 
 
     return {
@@ -161,7 +157,6 @@ var FormValidation = function () {
         init: function () {
             handleValidation1();
             handleValidation2();
-			resetform();
         }
 
     };
